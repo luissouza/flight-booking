@@ -1,0 +1,41 @@
+spring:
+  codec:
+    max-in-memory-size=100MB:
+  sql.init.mode: always
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: postgres
+    password: password
+  jpa:
+    repositories:
+      enabled=true:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    generate-ddl: true
+
+api:
+  services:
+    skyPicker:
+      baseUrl: https://api.tequila.kiwi.com
+      headers: apikey=lAP5uLJCGAozwGQPV_sK1-uHKo-cG-cm
+      endpoints:
+        filter:
+          path: /v2/search
+          method: GET
+          timeout: 20
+          v: 3
+        locations:
+          path: /locations/id
+          method: GET
+          timeout: 20
+springdoc:
+  api-docs:
+    path=/api-docs:
+
+
+
