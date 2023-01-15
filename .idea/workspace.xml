@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa35879d-b5b7-4bfe-af64-fa12b22f9530" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pt/flightbooking/domain/service/impl/FlightsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pt/flightbooking/domain/service/impl/FlightsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/FlightBookingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/FlightBookingApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesEndpoint$WebClientPropertiesEndpointBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesEndpoint$WebClientPropertiesEndpointBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesHeader$WebClientPropertiesHeaderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesHeader$WebClientPropertiesHeaderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/configuration/webclient/WebClientPropertiesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/AverageFlightsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/AverageFlightsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/DeleteFlightRecordsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/DeleteFlightRecordsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/FlightDestinyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/FlightDestinyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/FlightsDataNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/FlightsDataNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/dto/ErrorResponseDto$ErrorResponseDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/dto/ErrorResponseDto$ErrorResponseDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/dto/ErrorResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/dto/ErrorResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/error/ErrorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/error/ErrorBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/error/ValidationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/error/ValidationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/handler/FlightCocusExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/ExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/ExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/ExceptionMappingProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/ExceptionMappingProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/ExceptionMappingPropertiesDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/ExceptionMappingPropertiesDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/constants/ExceptionMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/mappings/constants/ExceptionMappings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/message/ErrorMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/core/exception/message/ErrorMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/controller/FlightsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/controller/FlightsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/controller/FlightsRecordsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/controller/FlightsRecordsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/datasources/FlightsRecordsDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/datasources/FlightsRecordsDataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/datasources/impl/FlightsRecordsDataSourceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/datasources/impl/FlightsRecordsDataSourceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/dto/mapper/FlightRecordEntityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/dto/mapper/FlightRecordEntityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/dto/request/FlightSearchParams$FlightSearchParamsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/dto/request/FlightSearchParams$FlightSearchParamsBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/dto/request/FlightSearchParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/dto/request/FlightSearchParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/model/FlightRecord$FlightRecordBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/model/FlightRecord$FlightRecordBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/model/FlightRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/model/FlightRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/repository/FlightsRecordsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/repository/FlightsRecordsRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/webclient/constant/SkyPicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/webclient/constant/SkyPicker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/webclient/rest/WebClientRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/data/webclient/rest/WebClientRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/mapper/FlightRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/mapper/FlightRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceAverageDto$FlightBagPriceAverageDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceAverageDto$FlightBagPriceAverageDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceAverageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceAverageDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceDto$FlightBagPriceDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceDto$FlightBagPriceDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightBagPriceDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightDetailsDto$FlightDetailsDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightDetailsDto$FlightDetailsDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightDetailsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightDetailsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightHeaderResponseDto$FlightHeaderResponseDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightHeaderResponseDto$FlightHeaderResponseDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightHeaderResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightHeaderResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightLocationDto$FlightLocationDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightLocationDto$FlightLocationDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightLocationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightLocationDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightRecordDto$FlightRecordDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightRecordDto$FlightRecordDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightRecordDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightRecordDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResponseDto$FlightResponseDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResponseDto$FlightResponseDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResumeDetailsDto$FlightResumeDetailsDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResumeDetailsDto$FlightResumeDetailsDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResumeDetailsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/FlightResumeDetailsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/LocationDto$LocationDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/LocationDto$LocationDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/LocationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/dto/response/LocationDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/entities/FlightRecordEntity$FlightRecordEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/entities/FlightRecordEntity$FlightRecordEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/entities/FlightRecordEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/entities/FlightRecordEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/repository/FlightsRecordsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/repository/FlightsRecordsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/service/FlightsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/service/FlightsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/service/impl/FlightsRecordsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/service/impl/FlightsRecordsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/service/impl/FlightsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/domain/service/impl/FlightsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/DateTimeFormatterConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/DateTimeFormatterConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/NumberUtilsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/NumberUtilsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/WebClientUtilsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/pt/flightbooking/utils/WebClientUtilsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/pt/flightbooking/configuration/ScenarioContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/pt/flightbooking/configuration/ScenarioContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/pt/flightbooking/enums/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/pt/flightbooking/enums/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/pt/flightbooking/scenarios/FlightScenarioSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/pt/flightbooking/scenarios/FlightScenarioSteps.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KMideDtebkBVYBfOpVDJuXL4T1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/luisgustavosouza/workspace/flight-booking",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.saveactions",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn clean install -DskipTests=true" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="flight-booking" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="flight-booking" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightBookingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="flight-booking-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.pt.flightbooking.FlightBookingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa35879d-b5b7-4bfe-af64-fa12b22f9530" name="Changes" comment="" />
+      <created>1673790941378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673790941378</updated>
+      <workItem from="1673790942634" duration="1676000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

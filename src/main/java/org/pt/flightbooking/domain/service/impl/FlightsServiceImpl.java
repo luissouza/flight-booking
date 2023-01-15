@@ -34,8 +34,7 @@ public class FlightsServiceImpl implements FlightsService {
   private final FlightsRecordsRepository flightsRecordsRepository;
   private final WebClientRequest webClientFulfillmentRequest;
 
-  public FlightsServiceImpl(final FlightsRecordsRepository flightsRecordsRepository,
-                            final WebClientRequest webClientFulfillmentRequest) {
+  public FlightsServiceImpl(final FlightsRecordsRepository flightsRecordsRepository, final WebClientRequest webClientFulfillmentRequest) {
     this.flightsRecordsRepository = flightsRecordsRepository;
     this.webClientFulfillmentRequest = webClientFulfillmentRequest;
   }
@@ -78,9 +77,7 @@ public class FlightsServiceImpl implements FlightsService {
   }
 
   public Map<String, List<FlightDetailsDto>> groupFlightsByDestiny(final FlightResponseDto Dto) {
-    final Map<String, List<FlightDetailsDto>> flightsAggPerDestination = Dto.getData()
-        .stream()
-        .collect(groupingBy(FlightDetailsDto::getFlyTo));
+    final Map<String, List<FlightDetailsDto>> flightsAggPerDestination = Dto.getData().stream().collect(groupingBy(FlightDetailsDto::getFlyTo));
     return flightsAggPerDestination;
   }
 
@@ -96,11 +93,8 @@ public class FlightsServiceImpl implements FlightsService {
     flightsRecordsRepository.create(record);
   }
 
-  public void calcAvg(
-      final Map<String, FlightResumeDetailsDto> res,
-      final String destination,
-      final List<FlightDetailsDto> flights,
-      final FlightResponseDto flightsDto
+  public void calcAvg(final Map<String, FlightResumeDetailsDto> res, final String destination,
+                      final List<FlightDetailsDto> flights, final FlightResponseDto flightsDto
   ) throws AverageFlightsException {
 
     try {
@@ -134,8 +128,6 @@ public class FlightsServiceImpl implements FlightsService {
   public String validateAirports(final FlightSearchParams params) {
 
     try {
-
-      final double x = 0/0;
 
       final String[] airPorts = params.getFlyTo().trim().split(",");
 

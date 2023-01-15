@@ -294,6 +294,6 @@
   width="686" height="289">
 </p>
 
-[Postman Collection]: https://we.tl/t-xpwNenND6k
+[Postman Collection]: https://we.tl/t-lklxNPa3jS
 
 
