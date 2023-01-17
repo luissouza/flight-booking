@@ -35,7 +35,8 @@
 
 ## How FlightBooking works?
 
-* FlightBooking will analyze all searched flights by period, destination, currency and airports. After
+* FlightBooking will analyze all searched flights by period, destination, currency and airports.
+  After
   carrying out the search, the API will calculate the average price of all flights and the average
   price of baggages. All the flights data will be provided by skyPicker apis:
 
@@ -58,15 +59,24 @@
 
 ### Domain:
 
-* This is the central layer of our application and the most important one, it is the closest to the application's business rules, that is, and when defined, it does not undergo as many changes as in the other layers and is still independent of all the other layers.
-  In this layer will be the classes responsible for saying which actions the user can perform in the system (UseCases), such as buying a product or even canceling an order.
-  In this layer will also be the entities. Entities are a representation of the application's business objects.
+* This is the central layer of our application and the most important one, it is the closest to the
+  application's business rules, that is, and when defined, it does not undergo as many changes as in
+  the other layers and is still independent of all the other layers.
+  In this layer will be the classes responsible for saying which actions the user can perform in the
+  system (UseCases), such as buying a product or even canceling an order.
+  In this layer will also be the entities. Entities are a representation of the application's
+  business objects.
 
 ### Data:
 
-* This layer is responsible for the communication between our application and the outside world, for example, communication with an API or a database.
-  Repositories: this layer is the implementation of abstract repositories, contained in another layer, the implementation performs operations such as searching, removing, updating or inserting data between our application and the datasources layer, thus making the midfield between the two extremes.
-  Models: are mirrors of entities, but may contain methods, such as conversion of input and output data, hash code and others.
+* This layer is responsible for the communication between our application and the outside world, for
+  example, communication with an API or a database.
+  Repositories: this layer is the implementation of abstract repositories, contained in another
+  layer, the implementation performs operations such as searching, removing, updating or inserting
+  data between our application and the datasources layer, thus making the midfield between the two
+  extremes.
+  Models: are mirrors of entities, but may contain methods, such as conversion of input and output
+  data, hash code and others.
   DataSources: Will perform HTTP GET requests on API or simply cache data using sqlite database.
 
 ### Core:
@@ -74,13 +84,14 @@
 * The core layer contains utility classes, such as configuration and exception classes.
 
 ### Project Structure:
+
 <p align="center">
 <img width="450" height="450" src="https://i.postimg.cc/vZRWm060/Captura-de-Tela-2023-01-15-a-s-02-47-41.png">
 </p>
 
 *******
 
-## Architecture II: The Three Tier (Three Layer) 
+## Architecture II: The Three Tier (Three Layer)
 
 <p align="center">
 <img width="1000" height="600" src="https://i.postimg.cc/J4bChn7q/1-x-A9-Zq-Dz-T3-yf-Zfur3-GW61-A.png"
@@ -138,9 +149,11 @@
 
 ## SOLID Principles
 
-* Dependency Inversion Principle ->  Code for abstraction not for implementation (applied in the service and repository layer for instance)
+* Dependency Inversion Principle ->  Code for abstraction not for implementation (applied in the
+  service and repository layer for instance)
 
-* Single Responsibility principle -> Lombok to remove java verbose for common tasks (repetitive code); usage of pattern dto – entity (never expose database contract to outside)
+* Single Responsibility principle -> Lombok to remove java verbose for common tasks (repetitive
+  code); usage of pattern dto – entity (never expose database contract to outside)
 
 *******
 
@@ -162,7 +175,6 @@
 <img width="1000" height="600" src="https://i.postimg.cc/MHfHN19C/Captura-de-Tela-2023-01-14-a-s-00-44-15.png"
   alt="Size Limit comment in pull request about bundle size changes">
 </p>
-
 
 ### Exception response example:
 
@@ -193,7 +205,7 @@
 
 3. Consume the api: /api/v1/flights/avg, informing the parameters below:
 
-   Example: http://localhost:8080/api/v1/flights/avg?flyTo=LIS,OPO&currency=GBP&dateFrom=2023-03-01&dateTo=2023-03-02
+   Example: http://localhost:8080/api/v1/flights/avg?flyTo=LIS,OPO&currency=GBP&dateFrom=2023-03-07&dateTo=2023-03-10&airLines=TP,FR
    #### Parameters:
    ```sh
       flyTo = Inform the desired destination of the flight, it is possible to enter only one destination or more than one separated by a comma, 
@@ -201,6 +213,9 @@
       
       currency = The currency which the cost of the flight will be calculated.
       Example: EUR (Euro), GBP (British Pounds Sterling)
+   
+      airLines = Airlines to be filtered
+      Example: TP (TAP), FR (Ryanair)
       
       dateFrom = Flight departure date
       Example: 2023-03-01
@@ -255,11 +270,10 @@
 - **Airlines API:** https://api.skypicker.com/airlines
 - **Airport code:** https://airportcodes.aero/iata/
 
-
-|IATA-Code |ICAO-Code  | Prefix-Code| Airline | Country
-|--- | --- | --- |  --- |  ---|
-|TP| TAP| 047 |TAP Air Portugal  | Portugal |
-|FR | RYR| -- |Ryanair  | Ireland |
+| IATA-Code | ICAO-Code | Prefix-Code | Airline          | Country  
+|-----------|-----------|-------------|------------------|----------|
+| TP        | TAP       | 047         | TAP Air Portugal | Portugal |
+| FR        | RYR       | --          | Ryanair          | Ireland  |
 
 *******
 
