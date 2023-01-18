@@ -279,6 +279,9 @@
 
 ## Test results
 
+* The tests have not yet been configured to work without the launch context, so to run the unit and
+  automated tests, start the postgres container first and then run the tests.
+
 ### Integrated tests - Cucumber
 
 * the result of the automated tests can be accessed visually through the link generated after

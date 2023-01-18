@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "api",
+      "type": "org.pt.flightbooking.core.configuration.webclient.WebClientProperties",
+      "sourceType": "org.pt.flightbooking.core.configuration.webclient.WebClientProperties"
+    },
+    {
+      "name": "exceptions",
+      "type": "org.pt.flightbooking.core.exception.mappings.ExceptionMappingProperties",
+      "sourceType": "org.pt.flightbooking.core.exception.mappings.ExceptionMappingProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "api.services",
+      "type": "java.util.Map<java.lang.String,org.pt.flightbooking.core.configuration.webclient.WebClientPropertiesService>",
+      "sourceType": "org.pt.flightbooking.core.configuration.webclient.WebClientProperties"
+    },
+    {
+      "name": "exceptions.mappings",
+      "type": "java.util.Map<java.lang.String,org.pt.flightbooking.core.exception.mappings.ExceptionMappingPropertiesDetails>",
+      "sourceType": "org.pt.flightbooking.core.exception.mappings.ExceptionMappingProperties"
+    }
+  ],
+  "hints": []
+}

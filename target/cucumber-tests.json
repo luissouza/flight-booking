@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-18T14:23:08.325Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6738000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.pt.flightbooking.scenarios.FlightScenarioSteps.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "fetch flights in skyPicker",
+        "description": "",
+        "id": "fetch-flights;fetch-flights-in-skypicker",
+        "after": [
+          {
+            "result": {
+              "duration": 215000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.pt.flightbooking.scenarios.FlightScenarioSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4024737000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a flight search is submitted",
+            "match": {
+              "location": "org.pt.flightbooking.scenarios.FlightScenarioSteps.given_a_flight_search_is_submitted()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 330000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the flight is successfully submitted",
+            "match": {
+              "location": "org.pt.flightbooking.scenarios.FlightScenarioSteps.when_the_flight_successfully_is_submitted()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "at least one flight exist",
+            "match": {
+              "location": "org.pt.flightbooking.scenarios.FlightScenarioSteps.and_at_least_one_flight_exist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the feature is already operating",
+            "match": {
+              "location": "org.pt.flightbooking.scenarios.FlightScenarioSteps.then_feature_is_already_operating()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FlightScenarioSteps"
+          }
+        ]
+      }
+    ],
+    "name": "Fetch flights",
+    "description": "",
+    "id": "fetch-flights",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FetchFlights.feature",
+    "tags": []
+  }
+]
